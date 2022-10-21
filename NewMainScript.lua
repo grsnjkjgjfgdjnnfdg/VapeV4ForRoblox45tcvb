@@ -1845,7 +1845,6 @@ if shared.VapeIndependent then
 	shared.VapeFullyLoaded = true
 	return GuiLibrary
 else
-	loadstring(GetURL("AnyGame.lua"))()
 	if betterisfile("vape/CustomModules/"..game.PlaceId..".lua") then
 		loadstring(readfile("vape/CustomModules/"..game.PlaceId..".lua"))()
 	else
